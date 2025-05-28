@@ -1,0 +1,21 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "g++ - Build and debug active file",
+			"program": "${fileDirname}/${fileBasenameNoExtension}",
+			"args": [],
+			"cwd": "${fileDirname}"
+		},
+		{
+			"name": "C/C++ Runner: Debug Session",
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "/Users/nguyenvominhkhoi/Documents/University_YEAR2/Semester 2/Programming2/TheTinyProject",
+			"program": "/Users/nguyenvominhkhoi/Documents/University_YEAR2/Semester 2/Programming2/TheTinyProject/build/Debug/outDebug"
+		}
+	]
+}
