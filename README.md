@@ -55,14 +55,14 @@ These classes solve equations of the form \(Ax = b\):
 - Builds a `LeastSquaresSystem` using training data.
 - Solves for the parameter vector $x$ using the pseudoinverse formula:
 
-  $$
+  $
   x = (A^T A + \lambda I)^{-1} A^T b
-  $$
+  $
 
 - The regularization term $\lambda = 1 \times 10^{-8}$ adds numerical stability.
 
 ### 2.4 Evaluation
-- Predicts outputs on test data: \(\hat{y} = A_{\text{test}} x\)
+- Predicts outputs on test data: $\hat{y} = A_{\text{test}} x$ 
 - Computes Root Mean Squared Error (RMSE) for accuracy evaluation.
 
 ---
