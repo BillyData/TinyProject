@@ -1,5 +1,13 @@
 # Project Report: Linear Algebra-Based Machine Learning in C++
 
+## Team Member:
+- Nguyen Vo Minh Khoi - 10423063
+- Le Quang Minh Khoa - 10423057
+- Nguyen Duc Khang - 10423054
+- Tran Nguyen Khoa - 10423060
+- Phan Thanh Hung - 10423051
+- Duong Quy Trang - 10423110
+
 ## Overview
 This project implements a lightweight machine learning model using custom-built linear algebra structures and solvers in C++. It focuses on reading a dataset, preprocessing it, training a regression model using least squares optimization, and evaluating its performance.
 
