@@ -53,11 +53,13 @@ These classes solve equations of the form \(Ax = b\):
 
 ### 2.3 Model Training
 - Builds a `LeastSquaresSystem` using training data.
-- Solves for parameter vector \(x\) using pseudoinverse:
-  \[
-  x = (A^TA + \lambda I)^{-1}A^Tb
-  \]
-- Regularization term \(\lambda = 1 \times 10^{-8}\) adds numerical stability.
+- Solves for the parameter vector $x$ using the pseudoinverse formula:
+
+  $$
+  x = (A^T A + \lambda I)^{-1} A^T b
+  $$
+
+- The regularization term $\lambda = 1 \times 10^{-8}$ adds numerical stability.
 
 ### 2.4 Evaluation
 - Predicts outputs on test data: \(\hat{y} = A_{\text{test}} x\)
